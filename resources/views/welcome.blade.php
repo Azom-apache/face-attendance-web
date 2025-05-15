@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Face Descriptor Capture</title>
-  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script src="{{asset('face-api.min.js')}}"></script>
   <style>
     body { font-family: Arial, sans-serif; text-align: center; margin-top: 20px; }
     video { border: 1px solid #ccc; }
@@ -87,8 +87,8 @@
         const descriptorArray = Array.from(descriptor);
 
         const payload = {
-          name: 'omccar',
-          email: 'omarc@example.com',
+          name: 'Azom',
+          email: 'azom@example.com',
           password: 'password123',
           password_confirmation: 'password123',
           face_descriptor: descriptorArray

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Face Attendance Capture</title>
-  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script src="{{asset('face-api.min.js')}}"></script>
   <style>
     body { font-family: Arial, sans-serif; text-align: center; margin-top: 20px; }
     video { border: 1px solid #ccc; }
